@@ -14,7 +14,7 @@ img {
   padding: 0;
 }
 
-.layer:nth-child(1) {
+/*.layer:nth-child(1) {
   opacity: 0.15;
 }
 .layer:nth-child(2) {
@@ -29,6 +29,14 @@ img {
 .layer:nth-child(5) {
   opacity: 0.75;
 }
-.layer:nth-child(6) {
-  opacity: 0.90;
+*/
+.Layer5_png {
+  background-image: url("Layer5.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2080px;
+  height: 1100px;
+  z-index: 6;
 }
+
