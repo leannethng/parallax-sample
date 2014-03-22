@@ -8,10 +8,35 @@ img {
   width: 100%;
 }
 
-.scene {
-  max-width: 500px;
-  margin: 0 auto;
+
+.scene,
+.layer {
+  display: block;
+  height: 100%;
+  width: 100%;
   padding: 0;
+  margin: 0;
+}
+
+.scene {
+  min-height: 2000px;
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+}
+.layer div {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 /*.layer:nth-child(1) {
@@ -31,12 +56,46 @@ img {
 }
 */
 .Layer5_png {
-  background-image: url("Layer5.png");
+  background-image: url("../images/Layer5.png");
   position: absolute;
-  left: 0px;
-  top: 0px;
+  
   width: 2080px;
   height: 1100px;
-  z-index: 6;
+  
 }
+.Layer4_png {
+  background-image: url("../images/Layer4.png");
+  position: absolute;
+  
+  width: 2080px;
+  height: 1100px;
+
+}
+.Layer3_png {
+  background-image: url("../images/Layer3.png");
+  position: absolute;
+ 
+  width: 1201px;
+  height: 1100px;
+ 
+}
+.Layer2_png {
+  background-image: url("../images/Layer2.png");
+  position: absolute;
+  left: 1256px;
+  top: 670px;
+  width: 191px;
+  height: 247px;
+ 
+}
+.Layer1_png {
+  background-image: url("../images/Layer1.png");
+  left: 567px;
+  top: 836px;
+  width: 1206px;
+  height: 134px;
+  position: absolute;
+  
+}
+
 
