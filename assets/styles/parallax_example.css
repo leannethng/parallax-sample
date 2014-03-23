@@ -234,7 +234,7 @@ table {
 
 @font-face {
   font-family: "icons";
-  src: url("../../fonts/icons/icons.eot");
+  src: url("fonts/icons/icons.eot");
   src: url("../../fonts/icons/icons.eot?#iefix") format("embedded-opentype"), url("../../fonts/icons/icons.woff") format("woff"), url("../../fonts/icons/icons.ttf") format("truetype"), url("../../fonts/icons/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -455,7 +455,7 @@ footer .twitter-share-button {
 }
 .about .cables:before {
   left: 10%;
-  background: transparent url(../../images/cable.png) 0 0 no-repeat;
+  background: transparent url(images/cable.png) 0 0 no-repeat;
   position: absolute;
   display: block;
   height: 860px;
@@ -466,7 +466,7 @@ footer .twitter-share-button {
 }
 .about .cables:after {
   right: 10%;
-  background: transparent url(../../images/cable.png) 0 0 no-repeat;
+  background: transparent url(images/cable.png) 0 0 no-repeat;
   position: absolute;
   display: block;
   height: 860px;
@@ -479,7 +479,7 @@ footer .twitter-share-button {
   -webkit-transform-origin: 50% 0%;
   -moz-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
-  background: #f2f2f2 url(../../images/panel.jpg) -7px 0;
+  background: #f2f2f2 url(images/panel.jpg) -7px 0;
   background-size: 399px 357px;
 }
 .about .panel:before {
@@ -498,7 +498,7 @@ footer .twitter-share-button {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: transparent url(../../images/compass.png) 0 0 no-repeat;
+  background: transparent url(images/compass.png) 0 0 no-repeat;
   background-size: 224px 224px;
   position: absolute;
   display: block;
@@ -519,7 +519,7 @@ footer .twitter-share-button {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: transparent url(../../images/map.png) 0 0 no-repeat;
+  background: transparent url(images/map.png) 0 0 no-repeat;
   background-size: 60.5px 82.5px;
   position: absolute;
   display: block;
@@ -801,7 +801,7 @@ footer .twitter-share-button {
 }
 
 .background {
-  background: url(../../images/background.jpg) no-repeat 50% 100%;
+  background: url(images/background.jpg) no-repeat 50% 100%;
   bottom: 96px;
   background-size: cover;
   position: absolute;
@@ -821,7 +821,7 @@ footer .twitter-share-button {
   background-size: 128px 224px;
   height: 224px;
   width: 128px;
-  background-image: url(../../images/lighthouse.png);
+  background-image: url(images/lighthouse.png);
   background-repeat: no-repeat;
   bottom: 64px;
   position: absolute;
@@ -845,10 +845,10 @@ footer .twitter-share-button {
   left: 0;
 }
 .wave.plain {
-  background-image: url(../../images/wave-plain.png);
+  background-image: url(images/wave-plain.png);
 }
 .wave.paint {
-  background-image: url(../../images/wave-paint.png);
+  background-image: url(images/wave-paint.png);
 }
 
 .light {
@@ -862,10 +862,10 @@ footer .twitter-share-button {
   left: 50%;
 }
 .light.orange {
-  background-image: url(../../images/light-orange.png);
+  background-image: url(images/light-orange.png);
 }
 .light.purple {
-  background-image: url(../../images/light-purple.png);
+  background-image: url(images/light-purple.png);
 }
 .light.a {
   bottom: 80px;
@@ -1004,19 +1004,19 @@ footer .twitter-share-button {
   left: 0;
 }
 .board.birds {
-  background-image: url(../../images/board-birds.png);
+  background-image: url(images/board-birds.png);
 }
 .board.cloud-1 {
-  background-image: url(../../images/board-cloud-1.png);
+  background-image: url(images/board-cloud-1.png);
 }
 .board.cloud-2 {
-  background-image: url(../../images/board-cloud-2.png);
+  background-image: url(images/board-cloud-2.png);
 }
 .board.cloud-3 {
-  background-image: url(../../images/board-cloud-3.png);
+  background-image: url(images/board-cloud-3.png);
 }
 .board.cloud-4 {
-  background-image: url(../../images/board-cloud-4.png);
+  background-image: url(images/board-cloud-4.png);
 }
 
 .swing-1 {
@@ -2676,22 +2676,22 @@ html.touch .links a.tap {
   width: 70px;
 }
 #awwwards.left.black a {
-  background-image: url(../../graphics/awwwards_sotd_black_left.png);
+  background-image: url(graphics/awwwards_sotd_black_left.png);
 }
 #awwwards.right.black a {
-  background-image: url(../../graphics/awwwards_sotd_black_right.png);
+  background-image: url(graphics/awwwards_sotd_black_right.png);
 }
 #awwwards.left.white a {
-  background-image: url(../../graphics/awwwards_sotd_white_left.png);
+  background-image: url(graphics/awwwards_sotd_white_left.png);
 }
 #awwwards.right.white a {
-  background-image: url(../../graphics/awwwards_sotd_white_right.png);
+  background-image: url(graphics/awwwards_sotd_white_right.png);
 }
 #awwwards.left.green a {
-  background-image: url(../../graphics/awwwards_sotd_green_left.png);
+  background-image: url(graphics/awwwards_sotd_green_left.png);
 }
 #awwwards.right.green a {
-  background-image: url(../../graphics/awwwards_sotd_green_right.png);
+  background-image: url(graphics/awwwards_sotd_green_right.png);
 }
 
 @media (max-width: 767px) {
@@ -2708,21 +2708,21 @@ html.touch .links a.tap {
     background-size: 70px 105px;
   }
   #awwwards a.left.black a {
-    background-image: url(../../graphics/awwwards_sotd_black_left2x.png);
+    background-image: url(graphics/awwwards_sotd_black_left2x.png);
   }
   #awwwards a.right.black a {
-    background-image: url(../../graphics/awwwards_sotd_black_right2x.png);
+    background-image: url(graphics/awwwards_sotd_black_right2x.png);
   }
   #awwwards a.left.white a {
-    background-image: url(../../graphics/awwwards_sotd_white_left2x.png);
+    background-image: url(graphics/awwwards_sotd_white_left2x.png);
   }
   #awwwards a.right.white a {
-    background-image: url(../../graphics/awwwards_sotd_white_right2x.png);
+    background-image: url(graphics/awwwards_sotd_white_right2x.png);
   }
   #awwwards a.left.green a {
-    background-image: url(../../graphics/awwwards_sotd_green_left2x.png);
+    background-image: url(graphics/awwwards_sotd_green_left2x.png);
   }
   #awwwards a.right.green a {
-    background-image: url(../../graphics/awwwards_sotd_green_right2x.png);
+    background-image: url(graphics/awwwards_sotd_green_right2x.png);
   }
 }

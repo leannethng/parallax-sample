@@ -1,101 +1,54 @@
 body {
-  background: #111;
-  margin: 0;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-
-.scene,
-.layer {
-  display: block;
-  height: 100%;
-  width: 100%;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  overflow-x : hidden;
+  overflow-y : hidden;
 }
 
-.scene {
-  min-height: 2000px;
+#top {
+  height: 1px;
+  width: auto;
+
+}
+
+#wrapper {
+  width: auto;
+  margin: 0 auto;
+ 
+}
+
+#container {
+  background: url("../images/Layer5.png") center;
+
   position: relative;
-  overflow: hidden;
-}
-
-.layer {
-  position: absolute;
-}
-.layer div {
-  -webkit-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-/*.layer:nth-child(1) {
-  opacity: 0.15;
-}
-.layer:nth-child(2) {
-  opacity: 0.30;
-}
-.layer:nth-child(3) {
-  opacity: 0.45;
-}
-.layer:nth-child(4) {
-  opacity: 0.60;
-}
-.layer:nth-child(5) {
-  opacity: 0.75;
-}
-*/
-.Layer5_png {
-  background-image: url("../images/Layer5.png");
-  position: absolute;
-  
-  width: 2080px;
-  height: 1100px;
-  
-}
-.Layer4_png {
-  background-image: url("../images/Layer4.png");
-  position: absolute;
-  
-  width: 2080px;
-  height: 1100px;
-
-}
-.Layer3_png {
-  background-image: url("../images/Layer3.png");
-  position: absolute;
- 
-  width: 1201px;
+  width: 100%;
+  margin: 0 auto;
   height: 1100px;
  
-}
-.Layer2_png {
-  background-image: url("../images/Layer2.png");
-  position: absolute;
-  left: 1256px;
-  top: 670px;
-  width: 191px;
-  height: 247px;
- 
-}
-.Layer1_png {
-  background-image: url("../images/Layer1.png");
-  left: 567px;
-  top: 836px;
-  width: 1206px;
-  height: 134px;
-  position: absolute;
   
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+}
+#scene { 
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
+
+.layer img{
+  /*background-image: url("../images/Layer5.png");*/
+  /*position: relative;*/
+  /*height:auto;*/
+    width:100%;
+    margin: 0px auto;
+    
+  
+}
 
