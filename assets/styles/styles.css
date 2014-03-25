@@ -22,6 +22,27 @@ body {
   margin: 0;
   padding: 0;
 }
+.foreground{
+  background-image: url("../images/Layer5.png");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;  
+}
+.tree{
+  background-image: url("../images/Layer3.png");
+  background-size: cover;
+  width: 110%;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  /*background-position: 30% ;  */
+}
+
 .hills{
   background-image: url("../images/Layer4.png");
   background-size: cover;
@@ -33,16 +54,6 @@ body {
   background-position: center;  
 }
 
-.foreground{
-  background-image: url("../images/Layer5.png");
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-  text-align: center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center;  
-}
 
 
 
