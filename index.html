@@ -7,8 +7,8 @@
 	<title>Parallax.js | Simple Example</title>
 
 	<!-- Behavioral Meta Data -->
-<!-- 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/styles.css"/>
@@ -17,14 +17,14 @@
 <body>
 	<div id="top"></div>
 
-	<div id= "wrapper">
 	<div id="container">
 		<ul id="scene">
-			
-			<li class="layer" data-depth="0.00"><!-- <img src="assets/images/Layer5.png"> --></li>
+			<li class="layer" data-depth="0.10"><div class="hills"></div></li>
+			<li class="layer" data-depth="0.00"><div class="foreground"></div></li>
+
 			
 		</ul>
-	</div>
+	
 	</div>
 
 	<!-- Scripts -->
@@ -38,9 +38,9 @@
 
 
 
-	// // Pretty simple huh?
-	// var scene = document.getElementById('scene');
-	// var parallax = new Parallax(scene);
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
 
 
 //this triggers the resize when the window is pulled
@@ -58,7 +58,7 @@ $(function() {
 //this is the funtion that is being used
 function resize() {
 	var _outerHeight = jQuery(window).height() - jQuery('#top').height();
-	jQuery('#container').height(_outerHeight + 1);
+	jQuery('.foreground, .hills').height(_outerHeight + 1);
 }
 
 
