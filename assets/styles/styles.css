@@ -26,12 +26,38 @@ body {
   padding: 0;
 }
 
+.mid-leaves{
+  background-image: url("../images/mid-leaves.png");
+  background-size: cover;
+  padding-top: 1%;
+  top: 3%;
+  left: -30%;
+  width: 150%;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center ;
+}
 .foreground{
   background-image: url("../images/foreground.png");
   background-size: cover;
-  width: 150%;
-  left: -30%;
-  top: 5%;
+  width: 130%;
+  left: -20%;
+  top: 10%;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+   
+}
+.foreground-back{
+  background-image: url("../images/foreground-back.png");
+  background-size: cover;
+  width: 130%;
+  left: -20%;
+  top: 10%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
@@ -42,7 +68,7 @@ body {
 .mid{
   background-image: url("../images/mid.png");
   background-size: cover;
-  top: 3%;
+  top: 5%;
   left: -30%;
   width: 150%;
   height: 700px;
@@ -52,6 +78,21 @@ body {
   background-position: center ;
 }
 
+
+
+
+.background-bushes{
+  background-image: url("../images/background-bushes.png");
+  background-size: cover;
+  top: 3%;
+  left: -30%;
+  width: 150%;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center ;
+}
 
 .background{
   background-image: url("../images/background.jpg");
