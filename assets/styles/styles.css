@@ -3,6 +3,8 @@ body {
   margin: 0 auto;
   overflow-x : hidden;
   overflow-y : hidden;
+  background-color: #9ccec8;
+
 }
 
 #top {
@@ -14,46 +16,54 @@ body {
 #container {
   width: 100%;
   margin: 0 auto;
+
 }
 
 #scene { 
-  list-style: none;
-  text-decoration: none;
+ /* list-style: none;
+  text-decoration: none;*/
   margin: 0;
   padding: 0;
 }
+
 .foreground{
-  background-image: url("../images/Layer5.png");
+  background-image: url("../images/foreground.png");
   background-size: cover;
-  width: 100%;
+  width: 150%;
+  left: -30%;
+  top: 5%;
   height: 700px;
   text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+   
+}
+.mid{
+  background-image: url("../images/mid.png");
+  background-size: cover;
+  top: 3%;
+  left: -30%;
+  width: 150%;
+  height: 700px;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center ;
+}
+
+
+.background{
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  width: 150%;
+  height: 700px;
+  bottom: 100%;
+  left: -30%;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;  
 }
-.tree{
-  background-image: url("../images/Layer3.png");
-  background-size: cover;
-  width: 110%;
-  height: 700px;
-  text-align: center;
-  background-repeat: no-repeat;
-  position: relative;
-  /*background-position: 30% ;  */
-}
-
-.hills{
-  background-image: url("../images/Layer4.png");
-  background-size: cover;
-  width: 110%;
-  height: 700px;
-  text-align: center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center;  
-}
-
 
 
 

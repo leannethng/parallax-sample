@@ -18,13 +18,14 @@
 	<div id="top"></div>
 
 	<div id="container">
-		<ul id="scene">
-			<li class="layer" data-depth="0.20"><div class="tree"></div></li>
-			<li class="layer" data-depth="0.10"><div class="hills"></div></li>
-			<li class="layer" data-depth="0.00"><div class="foreground"></div></li>
-
+		<div id="scene">
+		<div class="layer" data-depth="0.10"><div class="background"></div></div>
 			
-		</ul>
+			<div class="layer" data-depth="0.20"><div class="mid"></div></div>
+			
+<div class="layer" data-depth="0.40"><div class="foreground"></div></div>
+			
+		</div>
 	
 	</div>
 
@@ -59,7 +60,7 @@ $(function() {
 //this is the funtion that is being used
 function resize() {
 	var _outerHeight = jQuery(window).height() - jQuery('#top').height();
-	jQuery('.foreground, .hills, .tree').height(_outerHeight + 1);
+	jQuery('.foreground, .mid, .background').height(_outerHeight + 1);
 }
 
 
