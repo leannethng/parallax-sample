@@ -28,11 +28,11 @@ body {
 
 
 .foreground{
-  background-image: url("../images/foreground.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/foreground.png");
   background-size: cover;
   width: 130%;
   left: -20%;
-  top: 10%;
+  padding-bottom: 10%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
@@ -41,11 +41,11 @@ body {
    
 }
 .foreground-back{
-  background-image: url("../images/foreground-back.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/foreground-back.png");
   background-size: cover;
   width: 130%;
   left: -20%;
-  top: 10%;
+  padding-bottom: 10%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
@@ -54,11 +54,11 @@ body {
    
 }
 .mid{
-  background-image: url("../images/mid.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid.png");
   background-size: cover;
-  top: 5%;
-  left: -10%;
-  width: 120%;
+  margin-left: -20%;
+  padding-bottom: 5%;
+  width: 130%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
@@ -67,12 +67,12 @@ body {
 }
 
 .mid-leaves{
-  background-image: url("../images/mid-leaves.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid-leaves.png");
   background-size: cover;
-  padding-top: 1%;
-  top: 3%;
-  left: -10%;
-  width: 120%;
+  padding-bottom: 5%;
+  
+  margin-left: -20%;
+  width: 130%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
 
 
 .background-bushes{
-  background-image: url("../images/background-bushes.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/background-bushes.png");
   background-size: cover;
   top: 3%;
   left: -30%;
@@ -96,7 +96,7 @@ body {
 }
 
 .background{
-  background-image: url("../images/background.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/background.jpg");
   background-size: cover;
   width: 150%;
   height: 700px;
