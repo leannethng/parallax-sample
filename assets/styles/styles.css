@@ -26,26 +26,16 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 1fe6b82... added more layers
 .foreground{
   background-image: url("../images/foreground.png");
   background-size: cover;
-  width: 130%;
-  left: -20%;
-  top: 10%;
-  height: 700px;
-  text-align: center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center;
-   
-}
-.foreground-back{
-  background-image: url("../images/foreground-back.png");
-  background-size: cover;
-  width: 130%;
-  left: -20%;
-  top: 10%;
+  width: 150%;
+  left: -30%;
+  top: 5%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
@@ -56,6 +46,7 @@ body {
 .mid{
   background-image: url("../images/mid.png");
   background-size: cover;
+<<<<<<< HEAD
   top: 5%;
   left: -10%;
   width: 120%;
@@ -85,6 +76,8 @@ body {
 .background-bushes{
   background-image: url("../images/background-bushes.png");
   background-size: cover;
+=======
+>>>>>>> parent of 1fe6b82... added more layers
   top: 3%;
   left: -30%;
   width: 150%;
@@ -94,6 +87,7 @@ body {
   position: relative;
   background-position: center ;
 }
+
 
 .background{
   background-image: url("../images/background.jpg");
