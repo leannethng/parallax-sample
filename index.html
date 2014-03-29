@@ -19,11 +19,15 @@
 
 	<div id="container">
 		<div id="scene">
-		<div class="layer" data-depth="0.10"><div class="background"></div></div>
+			<div class="layer" data-depth="0.10"><div class="background"></div></div>
+			<div class="layer" data-depth="0.30"><div class="background-bushes"></div></div>
 			
-			<div class="layer" data-depth="0.20"><div class="mid"></div></div>
 			
-<div class="layer" data-depth="0.40"><div class="foreground"></div></div>
+			<div class="layer" data-depth="0.50"><div class="mid"></div></div>
+			<div class="layer" data-depth="0.52"><div class="mid-leaves"></div></div>
+			<div class="layer" data-depth="0.70"><div class="foreground-back"></div></div>
+			
+			<div class="layer" data-depth="1.00"><div class="foreground"></div></div>
 			
 		</div>
 	
@@ -60,7 +64,7 @@ $(function() {
 //this is the funtion that is being used
 function resize() {
 	var _outerHeight = jQuery(window).height() - jQuery('#top').height();
-	jQuery('.foreground, .mid, .background').height(_outerHeight + 1);
+	jQuery('.foreground, .foreground-back, .mid-leaves, .mid, .background-bushes, .background').height(_outerHeight + 1);
 }
 
 
