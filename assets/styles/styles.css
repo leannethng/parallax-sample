@@ -19,7 +19,7 @@ body {
 
 }
 
-#scene { 
+#scene {
  /* list-style: none;
   text-decoration: none;*/
   margin: 0;
@@ -32,32 +32,37 @@ body {
   background-size: cover;
   width: 130%;
   left: -20%;
-  padding-bottom: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 15%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
-   
+
 }
 .foreground-back{
   background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/foreground-back.png");
   background-size: cover;
   width: 130%;
   left: -20%;
-  padding-bottom: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 15%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
-   
+
 }
 .mid{
-  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid.png"), url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid-leaves.png");
   background-size: cover;
   margin-left: -20%;
   padding-bottom: 5%;
+  padding-top: 20%;
+
+  margin-top: -10%;
   width: 130%;
   height: 700px;
   text-align: center;
@@ -66,19 +71,21 @@ body {
   background-position: center ;
 }
 
-.mid-leaves{
-  background-image: url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid-leaves.png");
+/*.mid-leaves{
+  background-image:  url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid.png"), url("https://s3-us-west-2.amazonaws.com/parallax-sample/images/mid-leaves.png");
   background-size: cover;
   padding-bottom: 5%;
-  
+  padding-top: 20%;
+
+  margin-top: -10%;
   margin-left: -20%;
   width: 130%;
   height: 700px;
   text-align: center;
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   background-position: center ;
-}
+}*/
 
 
 
@@ -100,13 +107,12 @@ body {
   background-size: cover;
   width: 150%;
   height: 700px;
+  padding-top: 1%;
+
+  margin-top: -1%;
   bottom: 100%;
   left: -30%;
   background-repeat: no-repeat;
   position: relative;
-  background-position: center;  
+  background-position: center;
 }
-
-
-
-
