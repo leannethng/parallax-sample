@@ -1,6 +1,6 @@
 parallax-sample
 ===============
-
-http://parallax-sample.s3-website-us-west-2.amazonaws.com
+You can look at this here:
+http://leannethng.github.io/parallax-sample.
 
 
